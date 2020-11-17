@@ -754,9 +754,9 @@ var expectedConf = &Config{
 
 			ServiceDiscoveryConfigs: discovery.Configs{
 				&uyuni.SDConfig{
-					Host: "http://example.uyuni-project.org",
-					User: "gopher",
-					Pass: "hole",
+					Host:            "http://example.uyuni-project.org",
+					User:            "gopher",
+					Pass:            "hole",
 					RefreshInterval: model.Duration(60 * time.Second),
 				},
 			},
